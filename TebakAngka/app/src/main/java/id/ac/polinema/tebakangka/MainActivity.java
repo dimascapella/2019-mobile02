@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
 		RandNum = angka.nextInt(100) + 1;
 	}
 
+
 	public void handleGuess(View view) {
 		// TODO: Tambahkan logika untuk melakukan pengecekan angka
 		if(inputAngka.getText().toString().isEmpty()){
