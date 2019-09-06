@@ -24,4 +24,5 @@ public class SimpleActivity extends AppCompatActivity {
         String name = nameInput.getText().toString();
         outputText.setText("Hello " + name);
     }
+
 }
